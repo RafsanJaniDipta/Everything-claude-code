@@ -107,3 +107,12 @@ ecc2/target/
 assets/images/security/badrudi-exploit.mp4
 
 .aider*
+
+# Environment variables & secrets (added by GitHub Guardian)
+.env.*
+*.env
+!.env.example
+!.env.sample
+.envrc
+.venv/
+venv/
